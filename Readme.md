@@ -60,6 +60,5 @@ pause
 将图片放进image/regex中，vscode就可识别
 
 # 步骤5：clear unused images
-最后一步可以使用vscode插件完成
-> https://github.com/therainisme/vscode-clear-markdown-unused-images
-
+最后一步使用我写的另一个工具完成：markdown工程中无用图片清理工具
+> https://github.com/lyflexi/clear-unused-images-in-markdowns
