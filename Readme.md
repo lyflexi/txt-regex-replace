@@ -20,7 +20,7 @@
 
 解决方案如下：
 # 步骤1： 首先将所有的图片名中的空格替换为短横线-
-bat脚本
+bat脚本，用于图片重命名
 ```shell
 @echo off
 setlocal enabledelayedexpansion
@@ -57,7 +57,7 @@ pause
 ```
 
 # 步骤4：在md文件的当前目录下新建附件文件夹
-将图片放进image/regex中，vscode就可识别
+将重命名后的图片放进image/regex中，vscode就可识别
 
 # 步骤5：clear unused images
 最后一步使用我写的另一个工具完成：markdown工程中无用图片清理工具
