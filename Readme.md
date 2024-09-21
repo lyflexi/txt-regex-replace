@@ -7,7 +7,7 @@
 - 以及图片名为Paste image 时间戳.png的图片
 - vscode编辑器
 
-我需要将所有文本中的形如![[Paste image 时间戳]]转换为标准的markdown语法：![pngName](image/regex/pngName)，那么可以这样做
+我需要将所有文本中的形如![[Paste image 时间戳]]转换为标准的markdown语法：`![pngName](image/regex/pngName)`，那么可以这样做
 正则识别：
 ```shell
 !\[\[(.*?)\]\]
